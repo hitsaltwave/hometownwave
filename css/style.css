@@ -301,10 +301,13 @@ h1, h2, h3, h4, h5,
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .footer h2, .footer h3, .footer h4, .footer h5 {
     color: #000; }
-  .footer a {
+    .footer a{
+      color: white
+    }
+  /* .footer a {
     color: rgba(0, 0, 0, 0.5); }
     .footer a:hover {
-      color: black; }
+      color: black; } */
   .footer ul li {
     margin-bottom: 10px; }
   .footer .footer-heading {
@@ -835,7 +838,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     content: "";
     position: absolute;
-    height: 70%;
+    height: 100%;
     width: 100%; }
 
 .portfolio-item {
@@ -919,7 +922,8 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   font-weight: bold; }
   .site-logo-footer a {
-    color: #3b4eda; }
+    color: white
+   }
 
 .social_29128 a {
   display: inline-block;
@@ -1071,3 +1075,8 @@ h1, h2, h3, h4, h5,
   .post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+.icon-instagram{
+  color: white;
+  font-size:30px;
+}
